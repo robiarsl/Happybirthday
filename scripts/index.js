@@ -5,7 +5,7 @@ const canvasC = document.getElementById('c');
 
 var nama = prompt('Halo, nama kamu siapa?');
 const config = {
-  birthdate: 'Jul 07, 2021',
+  birthdate: 'Jul 08, 2022',
   name: nama
 };
 
