@@ -5,7 +5,7 @@ const canvasC = document.getElementById('c');
 
 var nama = prompt('Halo, nama kamu siapa?');
 const config = {
-  birthdate: 'Jul 09, 2022',
+  birthdate: 'Jul 12, 2022',
   name: nama
 };
 
@@ -49,7 +49,7 @@ x = setInterval(function () {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
+      strings: ['HAPPY', 'BIRTHDAY', config.name, 'YOU ARE AWESOME! '],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
